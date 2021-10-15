@@ -5,7 +5,7 @@
 #include "MAX30105.h" //sparkfun MAX3010X library
 MAX30105 particleSensor;
 LiquidCrystal_I2C lcd(0x27,20,4);
-//#define MAX30105 //if you have Sparkfun's MAX30105 breakout board , try #define MAX30105 
+//#define MAX30105 //if you have Sparkfun's MAX30105 breakout board , try #define MAX30105. 
 Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 
 double avered = 0; double aveir = 0;
